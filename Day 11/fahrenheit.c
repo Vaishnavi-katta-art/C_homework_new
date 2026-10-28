@@ -6,11 +6,11 @@ int main() {
     float celsius;
 
     printf("Enter temperature in Fahrenheit: ");
-    scanf("%d", &fahrenheit);
+    scanf("%f", &fahrenheit);
 
     celsius = (fahrenheit - 32) * 5.0 / 9.0;
 
-    printf("Temperature in Celsius: %.1f\n", celsius);
+    printf("Temperature in Celsius: \n", celsius);
 
     return 0;
 }
